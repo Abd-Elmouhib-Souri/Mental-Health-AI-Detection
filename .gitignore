@@ -1,0 +1,21 @@
+# Bibliothèques
+.venv/
+__pycache__/
+
+# BLOQUER les fichiers GloVe (très lourds)
+glove.6B.50d.txt
+glove.6B.100d.txt
+glove.6B.200d.txt
+glove.6B.300d.txt
+
+# Bloquer tous les .txt PAR DÉFAUT
+*.txt
+
+# SAUF le fichier requirements.txt (L'exception !)
+!requirements.txt
+
+# Autres fichiers inutiles
+temp_input.wav
+.DS_Store
+data/
+*.csv
